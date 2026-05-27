@@ -7,7 +7,9 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-device = "cuda" if torch.cuda.is_available() else "cpu"
+###### for render ##########################
+device = "cpu"
+# device = "cuda" if torch.cuda.is_available() else "cpu"
 
 class Point(BaseModel):
     x: float
