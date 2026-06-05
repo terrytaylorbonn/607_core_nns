@@ -98,8 +98,8 @@ for epoch in range(num_epochs):
 ## Modify d4_tiny_cnn_mnist.py:
 ## Add this after training, before test/plot:
 
-torch.save(model.state_dict(), "d4_cnn.pt")
-print("saved: d4_cnn.pt")
+#torch.save(model.state_dict(), "d4_cnn.pt")
+#print("saved: d4_cnn.pt")
 
 
 # Test

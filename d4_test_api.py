@@ -17,7 +17,8 @@ payload = {
 }
 
 r = requests.post(
-    "http://127.0.0.1:8000/predict",
+##    "http://127.0.0.1:8000/predict",
+    "https://six07-core-nns-d4.onrender.com/predict",
     json=payload,
 )
 
